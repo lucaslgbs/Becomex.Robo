@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Becomex.Robo.Application", "Becomex.Robo.Application\Becomex.Robo.Application.csproj", "{3F73032F-D030-48D7-96EA-595A1258D354}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Becomex.Robo.Domain", "Becomex.Robo.Domain\Becomex.Robo.Domain.csproj", "{1310C2B1-9B92-4A98-B478-02D6CFA7A4D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Becomex.Robo.API", "Becomex.Robo.API\Becomex.Robo.API.csproj", "{21BDEDD9-82F9-4A28-8185-16DBE386638A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Becomex.Robo.Test", "Becomex.Robo.Application.Test\Becomex.Robo.Test.csproj", "{B9AC85BF-1926-4CD7-9D0B-644FE70F39B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E009F7A-7C4B-4881-8689-8A7F30AB2EF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-API", "1-API", "{11A2AF8B-CEE3-49DE-A2CB-3F26F081C661}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{58B65575-A6B6-40E1-B5E3-702F9CB843D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{F3D9222F-D21A-403C-B9E0-97C3B5EBC4B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Tests", "0-Tests", "{C73D14E2-58F2-4C28-9B58-639FBB49FA06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F73032F-D030-48D7-96EA-595A1258D354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F73032F-D030-48D7-96EA-595A1258D354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F73032F-D030-48D7-96EA-595A1258D354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F73032F-D030-48D7-96EA-595A1258D354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1310C2B1-9B92-4A98-B478-02D6CFA7A4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1310C2B1-9B92-4A98-B478-02D6CFA7A4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1310C2B1-9B92-4A98-B478-02D6CFA7A4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1310C2B1-9B92-4A98-B478-02D6CFA7A4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BDEDD9-82F9-4A28-8185-16DBE386638A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BDEDD9-82F9-4A28-8185-16DBE386638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BDEDD9-82F9-4A28-8185-16DBE386638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BDEDD9-82F9-4A28-8185-16DBE386638A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AC85BF-1926-4CD7-9D0B-644FE70F39B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AC85BF-1926-4CD7-9D0B-644FE70F39B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AC85BF-1926-4CD7-9D0B-644FE70F39B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AC85BF-1926-4CD7-9D0B-644FE70F39B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F73032F-D030-48D7-96EA-595A1258D354} = {58B65575-A6B6-40E1-B5E3-702F9CB843D9}
+		{1310C2B1-9B92-4A98-B478-02D6CFA7A4D8} = {F3D9222F-D21A-403C-B9E0-97C3B5EBC4B3}
+		{21BDEDD9-82F9-4A28-8185-16DBE386638A} = {11A2AF8B-CEE3-49DE-A2CB-3F26F081C661}
+		{B9AC85BF-1926-4CD7-9D0B-644FE70F39B9} = {C73D14E2-58F2-4C28-9B58-639FBB49FA06}
+		{11A2AF8B-CEE3-49DE-A2CB-3F26F081C661} = {6E009F7A-7C4B-4881-8689-8A7F30AB2EF6}
+		{58B65575-A6B6-40E1-B5E3-702F9CB843D9} = {6E009F7A-7C4B-4881-8689-8A7F30AB2EF6}
+		{F3D9222F-D21A-403C-B9E0-97C3B5EBC4B3} = {6E009F7A-7C4B-4881-8689-8A7F30AB2EF6}
+		{C73D14E2-58F2-4C28-9B58-639FBB49FA06} = {6E009F7A-7C4B-4881-8689-8A7F30AB2EF6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBD5A4FF-BDED-4646-8239-7C870BB324DB}
+	EndGlobalSection
+EndGlobal
